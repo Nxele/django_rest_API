@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from MyApp import views
+from MyApp import views  #add your project name and import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vecter_api',views.get_data)
+    path('vecter_api',views.get_data) #add this path URL='vecter_api' veiws.get_data links to your function (get_data) 
 ]
