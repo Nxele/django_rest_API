@@ -14,5 +14,6 @@
 11. now open views.py using your IDE : copy and plaste this code and save https://github.com/Nxele/django_rest_API/blob/master/MyApp/views.py
 12. now go back to django_rest_API and open url.py copy this code and paste it the save https://github.com/Nxele/django_rest_API/blob/master/django_rest_API/urls.py
 13. then go back ones you must see manage.py run : cd .. then run ls
-12. now start your webserver by running run : python3 manage.py runserver
-9. then go to your broswer run : 127.0.0.1:8000/test_api
+14. now start your webserver by running run : python3 manage.py runserver
+15. then go to your broswer run : 127.0.0.1:8000/test_api
+16. then download and install postman for testing your POST request download postnman here https://www.getpostman.com/downloads/
