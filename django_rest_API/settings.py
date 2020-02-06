@@ -53,6 +53,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_rest_API.urls'
 
+ALLOWED_HOSTS = ['134.209.228.30', 'localhost', '127.0.0.1']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
